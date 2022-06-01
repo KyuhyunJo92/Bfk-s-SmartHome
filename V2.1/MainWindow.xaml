@@ -93,8 +93,8 @@
                 HorizontalContentAlignment="Stretch"  Grid.Row="5" Grid.Column="3"  />
 
                 <!--Row 6//Kyuhyun-->
-                <TextBlock x:Name="txtBox1" Grid.Row="6" Grid.Column="0" Text=ShortValuesString/>
-                <!--<Button Content="Button" x:Name="btnBox1" Grid.Row="6" Grid.Column="1"/>-->
+                <TextBlock x:Name="txtBox1" Grid.Row="6" Grid.Column="0" Text=""/>
+                <Button Content="Button" x:Name="btnBox1"  Grid.Row="6" Grid.Column="1" Click="btnBox1_click"/>
 
             </Grid>
             <Label Content="Status: " Background="AliceBlue" Grid.Row="6" Grid.Column="0"/>
