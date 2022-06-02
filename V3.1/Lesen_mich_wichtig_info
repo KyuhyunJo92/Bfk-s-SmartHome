@@ -1,4 +1,20 @@
+Info 1.
+niemand(C#, C++, Java whatever) darf nicht 'create Table' tum außerdem DB-administrator.
+Nur DB-administrator kann Create Table.
+benutzer nur insert zeile oder etwas schreiben.0
+
+
+
+
+
+Info 2.
 insertData(..., DateTime dt,...)
 {
 ....
-string insert = ....+dt.ToString("yyyy-MM-dd hh:mm:ss")+...
+string insert = //kwid = ? -> Auto INCREMENT
+                "INSERT INTO dbtemp.tblklimawert(temp, lfeuchte, druck, zeitpunkt, fksensid) VALUES('" + t.Value + "','" + h.Value + "','" + p.Value + "','"+dt.ToString("yyyy-MM-dd hh:mm:ss") + "',"+getSensId(ipa)+");";
+}
+
+//db datetime muss diese format("yyyy-MM-dd hh:mm:ss") string haben dafur, dass Datatime speichern.
+!!!!!!!!"+dt.ToString("yyyy-MM-dd hh:mm:ss") !!!!!!!!!!!!
+
