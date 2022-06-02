@@ -196,7 +196,7 @@ namespace UniversalServer.ViewModels
                 //Daten in die Datenbank schreiben.
                 try
                 {
-                    _dba.InsertData(TempAktuellValue, FeuchteAktuellValue, PressCurrentVal, /*DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss")*/DateTime.Now, msg.Split(';')[3]);
+                    _dba.InsertData(TempAktuellValue, FeuchteAktuellValue, PressCurrentVal, DateTime.Now, msg.Split(';')[3]);
                 }
                 catch (Exception ex)
                 {
