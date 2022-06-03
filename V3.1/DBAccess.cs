@@ -42,8 +42,8 @@ namespace UniversalServer.Model
         {
             int i = 0;
             string dummyIP_1 = "192.168.1.145";
-            string dummyIP_2 = "112.168.1.143";
-            string dummyIP_3 = "127.1.1.154";
+            string dummyIP_2 = "112.168.1.143";//this ip address is just an example. when a new sensor come, this will be changed.
+            string dummyIP_3 = "127.1.1.154";//this ip address is just an example. when a new sensor come, this will be changed.
 
             if (ipa.Equals(dummyIP_1))
             { i = 1; return i; }
